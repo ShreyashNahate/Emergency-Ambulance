@@ -1,0 +1,64 @@
+name: ambulence
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0' # Keep this as it's generally compatible with recent Flutter stable
+
+dependencies:
+  flutter:
+    sdk: flutter
+   
+  # Firebase Core Packages (these are now good versions)
+  firebase_core: ^3.15.0
+  firebase_auth: ^5.6.1
+  cloud_firestore: ^5.6.10  
+
+  firebase_messaging: ^15.2.8 
+  http: ^1.4.0
+  googleapis_auth: ^2.0.0
+
+  # Geolocation and Mapping
+  geolocator: ^14.0.1
+  # IMPORTANT: Set flutter_map back to the version that was previously suggested
+  flutter_map: ^8.1.1 # <--- USE THIS VERSION
+  latlong2: ^0.9.1
+  flutter_map_location_marker: ^10.1.0  
+
+
+
+  # URL Launcher
+  url_launcher: ^6.2.2
+
+  cupertino_icons: ^1.0.8
+
+  #----------- 
+  # workmanager:
+  #   git:
+  #     url: https://github.com/fluttercommunity/flutter_workmanager.git
+  #     path: packages/workmanager
+  #     ref: d17c86edcd87f1c1b7081a3959b77eb2762f28a3
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true 
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/ambulance.png
+    # - assets/images/ # Uncomment this line if you want to include all images in the folder

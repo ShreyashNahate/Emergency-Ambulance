@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "519011700291",
+    "firebase_url": "https://near-u-final-default-rtdb.firebaseio.com",
+    "project_id": "near-u-final",
+    "storage_bucket": "near-u-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519011700291:android:e61ee69bd8b5ce4e3c8ef6",
+        "android_client_info": {
+          "package_name": "com.example.ambulence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn5lbTDh5ocjje-a1koawSd9sYTQdiMnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519011700291:android:55e1d70a563a418f3c8ef6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn5lbTDh5ocjje-a1koawSd9sYTQdiMnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519011700291:android:3f1f8671eccfc3793c8ef6",
+        "android_client_info": {
+          "package_name": "com.example.x"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn5lbTDh5ocjje-a1koawSd9sYTQdiMnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
