@@ -202,11 +202,6 @@ class _UserTrackingMapState extends State<UserTrackingMap> {
   }
 
   Future<void> _getRouteBetweenPoints(LatLng start, LatLng end) async {
-    if (end == null) {
-      debugPrint("Cannot fetch route: start or end location is null.");
-      return;
-    }
-
     if (_isRouteLoading) {
       return;
     }
